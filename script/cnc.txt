@@ -1,0 +1,41 @@
+
+Name EMXP1
+acceleration	1.0
+actual_position	3.9823   0.6688   0.6387   0.0000   0.0000   
+distance_to_go	0.0000   0.0000   -0.1089  0.0000   0.0000   
+homed	1 1 1 1 1 1 1 1 1
+tool_offset	0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+velocity	0.0
+
+Name EMXP2
+acceleration	30.0
+actual_position	9,8232   0.6688   0.6387   0.0007   0.0000   
+distance_to_go	0.0000   0.0000   -0.1089  0.0000   0.0000   
+homed	1 1 1 1 1 1 1 1 1
+tool_offset	0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+velocity	0.0
+
+Name EMXP3
+acceleration	23.0
+actual_position	9.8989   0.6688   0.6387   0.0000   0.0000   
+distance_to_go	0.0000   0.0000   -0.1089  0.0000   0.0000   
+homed	1 1 1 1 1 1 1 1 1
+tool_offset	0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+velocity	0.0
+
+
+Name EMXP4
+acceleration	23.0
+actual_position	9.8989   0.6688   0.6387   0.0000   0.0000   
+distance_to_go	0.0000   0.0000   -0.1089  0.0000   0.0000   
+homed	1 1 1 1 1 1 1 1 1
+tool_offset	0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+velocity	0.0
+
+Name EMXP5
+acceleration	600.0
+actual_position	9.8989   0.6688   0.6387   0.0000   0.0000   
+distance_to_go	0.0000   0.0000   -0.1089  0.0000   0.0000   
+homed	1 1 1 1 1 1 1 1 0
+tool_offset	0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+velocity	0.0
