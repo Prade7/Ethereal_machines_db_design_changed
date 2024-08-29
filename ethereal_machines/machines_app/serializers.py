@@ -5,7 +5,6 @@ from .models import Machine, DynamicData
 
 
 
-# machines_app/serializers.py
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
 class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
@@ -13,7 +12,6 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
     def get_token(cls, user):
         token = super().get_token(user)
 
-        # Include custom claims
         token['employee_id'] = user.employee_id
         token['role'] = user.role
 
@@ -24,7 +22,6 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
 
 
 
-# machines_app/serializers.py
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
 class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
@@ -32,7 +29,6 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
     def get_token(cls, user):
         token = super().get_token(user)
 
-        # Include custom claims
         token['employee_id'] = user.employee_id
         token['role'] = user.role
 
